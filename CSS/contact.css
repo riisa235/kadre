@@ -1,0 +1,134 @@
+body{
+    background-color: #F5F5F5;
+    font-family: sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* content div styles */
+h1 {
+    padding-top: 10px;
+    margin: 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #111;
+}
+
+/*image*/
+#kadre {
+    margin: 0 auto;
+    padding: 10px;
+    clear: both;
+    max-width: 100%;
+    min-height: 500px;
+    background-image: url(https://freerangestock.com/sample/39029/man-running-alone-at-dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+/*contact us*/
+.desc {
+    margin: 70px 0 0 350px;
+    float: left;
+    width: 250px;
+}
+
+h2 {
+    margin-bottom: 35px;
+}
+
+p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.form {
+    float: right;
+    margin: 95px 220px 50px 0;
+    width: 500px;
+}
+
+form ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+form ul li {
+    padding: 0 0 10px 0;
+}
+
+form ul li a {
+    line-height: 30px;
+    font-size: 20px;
+    background: #333;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
+    display: block;
+}
+
+form ul li label {
+    width: 150px;
+    display: inline-block;
+    Vertical-align: top;
+}
+
+form ul li input[type=text],
+form ul li input[type=email],
+form ul li textarea {
+    border: 1px solid #999;
+    width: 350px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+form ul li input[type=text]:focus,
+form ul li input[type=email]:focus,
+form ul li textarea:focus {
+    border: 1px solid #000;
+}
+
+form ul li textarea {
+    min-height: 250px;
+}
+
+input::placeholder {
+    font: 15px sans-serif;
+}

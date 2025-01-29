@@ -1,0 +1,149 @@
+body{
+    background-color: #F5F5F5;
+    font-family: sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* content div styles */
+h1 {
+    padding-top: 10px;
+    margin: 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation li a {
+    display: block;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #111;
+}
+
+/*merchandise*/
+#details {
+    margin: 30px 300px 0 0;
+    width: 400px;
+    float: right;
+}
+
+.photo {
+    margin-right: 300px;
+    background: #333;
+    width: 370px;
+    height: 444px;
+}
+
+/*billing and payment*/
+#payment h2 {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#billing h2 {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.payform {
+    margin-left: 300px;
+    width: 500px;
+}
+
+.billform {
+    margin-left: 300px;
+    width: 500px;
+}
+
+form ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+form ul li {
+    padding: 0 0 10px 0;
+}
+
+form ul li a {
+    line-height: 30px;
+    font-size: 20px;
+    background: #333;
+    padding: 8px 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
+    display: block;
+    margin-left: 150px;
+}
+
+form ul li label {
+    width: 150px;
+    display: inline-block;
+    Vertical-align: top;
+}
+
+form ul li input[type=text],
+form ul li input[type=email],
+form ul li textarea {
+    border: 1px solid #999;
+    width: 350px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+form ul li input[type=text]:focus,
+form ul li input[type=email]:focus,
+form ul li textarea:focus {
+    border: 1px solid #000;
+}
+
+form ul li textarea {
+    min-height: 250px;
+}
+
+form button {
+    margin-left: 470px;
+}
+
+input::placeholder {
+    font: 15px sans-serif;
+}
+
+/*button*/
+.btn {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 10px 0 50px 300px;
+    width: 372px;
+    font-size: 17px;
+    border: 2px solid #333;
+}
+
+.btn:hover {
+    color: #333;
+    background: #fff;
+}
